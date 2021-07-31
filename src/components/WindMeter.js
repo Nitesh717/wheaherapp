@@ -39,7 +39,7 @@ let style={};
 if(angle!=='-1'){
 style={"transform": "rotate("+angle+"deg)"}
 }else{
-style={"width":"100%","left":"0","textAlign":"center"}
+style={"left":"0","textAlign":"center"}
 }
 
 return (
@@ -54,7 +54,7 @@ return (
 <span id="west">W</span>
 <span id="south">S</span>
 <p>{angle!=='-1'?"Wind Speed "+params.speed+" km/h":"Not Available"}</p>
-<span id="windniddle" style={style}>{angle!='-1'?"<=":""}
+<span id="windniddle" style={style}>{angle!='-1'?<img src="./images/arrow.svg" alt="arrow"/>:""}
 
 
 </span>
