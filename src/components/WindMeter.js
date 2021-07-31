@@ -47,7 +47,7 @@ return (
 <div className="contup">
 
 <div className="detail">
-<img alt="Wind" src="./images/air.svg"/>{params.date+" wind at "+params.dir+",Wind Speed is "+(params.speed>5?"Good":"Bad")+"."}</div>
+<img alt="Wind" src="./images/air.svg"/>{"Wind Direction is "+params.dir+"and Wind Speed is "+(params.speed>5?"Good":"Bad")+"."}</div>
 <div id="winddir">
 <span id="north">N</span>
 <span id="east">E</span>
