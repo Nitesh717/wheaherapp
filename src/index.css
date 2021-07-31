@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 canvas{
-    width: 425px!important;
+    width: 400px!important;
     height: 300px!important;
     background: rgba(0,0,0,0.8);
     padding: 24px;
