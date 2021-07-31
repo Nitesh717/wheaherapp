@@ -54,7 +54,7 @@ return (
 <span id="west">W</span>
 <span id="south">S</span>
 <p>{angle!=='-1'?"Wind Speed "+params.speed+" km/h":"Not Available"}</p>
-<span id="windniddle" style={style}>{angle!='-1'?<img src="./images/arrow.svg"/>:""}
+<span id="windniddle" style={style}>{angle!='-1'?"<=":""}
 
 
 </span>
