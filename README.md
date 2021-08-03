@@ -11,7 +11,7 @@ Things you need to know :
 1 changing backend file will only Effect forecast for two cities.
 2 in comparision section start time represents start day of 
 Comparison and end time represent end day of comparison only 
-Forecasts between two days will be shown on graph.
+Forecasts between two dates will be shown on graph.
 
 If you are running it locally then you need to change
 Axios base url to your local wheather api url
